@@ -1,5 +1,5 @@
 PKG_NAME := pypi-immutables
-URL = https://files.pythonhosted.org/packages/45/e5/743bc53f6ff11de2eb1dc29eef92693a51ded22039affb7316391dad67f5/immutables-0.16.tar.gz
+URL = https://files.pythonhosted.org/packages/64/4a/dc9d9669807d7639f3b25a776accf2226278184aa419dd3bfb042df07f49/immutables-0.17.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
