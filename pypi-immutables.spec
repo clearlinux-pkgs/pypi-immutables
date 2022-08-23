@@ -4,7 +4,7 @@
 #
 Name     : pypi-immutables
 Version  : 0.18
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/65/f7/6d863110a1e4c6d115efa900dcab8b51b9bcc3cb654a3e7a393ad2d178a1/immutables-0.18.tar.gz
 Source0  : https://files.pythonhosted.org/packages/65/f7/6d863110a1e4c6d115efa900dcab8b51b9bcc3cb654a3e7a393ad2d178a1/immutables-0.18.tar.gz
 Summary  : Immutable Collections
