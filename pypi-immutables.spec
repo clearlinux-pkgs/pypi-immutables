@@ -5,7 +5,7 @@
 #
 Name     : pypi-immutables
 Version  : 0.19
-Release  : 16
+Release  : 17
 URL      : https://files.pythonhosted.org/packages/c3/bf/113933c9d098c58cee52c68a205cd449bcc331c32156267d337125780bf6/immutables-0.19.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/bf/113933c9d098c58cee52c68a205cd449bcc331c32156267d337125780bf6/immutables-0.19.tar.gz
 Summary  : Immutable Collections
@@ -15,6 +15,8 @@ Requires: pypi-immutables-license = %{version}-%{release}
 Requires: pypi-immutables-python = %{version}-%{release}
 Requires: pypi-immutables-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(setuptools)
+BuildRequires : pypi(wheel)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -64,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683039263
+export SOURCE_DATE_EPOCH=1685557435
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
