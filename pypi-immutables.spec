@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-immutables
-Version  : 0.19
-Release  : 17
-URL      : https://files.pythonhosted.org/packages/c3/bf/113933c9d098c58cee52c68a205cd449bcc331c32156267d337125780bf6/immutables-0.19.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c3/bf/113933c9d098c58cee52c68a205cd449bcc331c32156267d337125780bf6/immutables-0.19.tar.gz
+Version  : 0.20
+Release  : 18
+URL      : https://files.pythonhosted.org/packages/7d/63/27f038a28ff2110bc04908a047817fd316d5a16ae06d0d3707732dee8013/immutables-0.20.tar.gz
+Source0  : https://files.pythonhosted.org/packages/7d/63/27f038a28ff2110bc04908a047817fd316d5a16ae06d0d3707732dee8013/immutables-0.20.tar.gz
 Summary  : Immutable Collections
 Group    : Development/Tools
 License  : Apache-2.0
@@ -55,10 +55,10 @@ python3 components for the pypi-immutables package.
 
 
 %prep
-%setup -q -n immutables-0.19
-cd %{_builddir}/immutables-0.19
+%setup -q -n immutables-0.20
+cd %{_builddir}/immutables-0.20
 pushd ..
-cp -a immutables-0.19 buildavx2
+cp -a immutables-0.20 buildavx2
 popd
 
 %build
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685557435
+export SOURCE_DATE_EPOCH=1692115325
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
